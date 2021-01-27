@@ -4,8 +4,9 @@ mizubot is to set your own scan point and notification filter with set center po
 **Scan command**
 ***
 <font color="Green">**Set scan point**</font> <br>
-`$scan latitude longitude`  
-ex. `$scan 41.591201 -93.603763` <br>
+`$scan latitude longitude` <br>
+Example <br>
+`$scan 41.591201 -93.603763` <br>
 <br>
 <font color="Green">**Delete scan point**</font> <br>
 `$delscan` <br>

@@ -1,14 +1,16 @@
 ### mizubot doc
 mizubot is to set your own scan point and notification filter with set center point in radius. scan point will be scanned every 10 mimutes.
 ***
-## Scan command
+**Scan command**
 ***
-### Set scan point
+<font color="Green">**Set scan point**</font> <br>
 `$scan latitude longitude`  
-ex. `$scan 41.59120112 -93.60376378` <br>
-### Delete scan point
+ex. `$scan 41.591201 -93.603763` <br>
+<br>
+<font color="Green">**Delete scan point**</font> <br>
 `$delscan` <br>
-### Check current scan point
+<br>
+<font color="Green">**Check current scan point**</font> <br>
 `$checkscan` <br>
 <br>
 ***

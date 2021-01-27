@@ -1,1 +1,5 @@
-# mizubot_doc
+### mizubot doc
+#### Set scan point
+`$scan latitude longitude radias(optional)`
+
+

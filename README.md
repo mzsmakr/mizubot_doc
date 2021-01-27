@@ -2,31 +2,32 @@
 mizubot is to set your own scan point and notification filter with set center point in radius. scan point will be scanned every 10 mimutes.
 <br><br>
 ### Procedure
-1. Set scan point with
-    ```
-    $scan latitude longitude
-    ``` 
-2. Set notification center with 
-    ```
-    $center latitude longitude (radius)
-    ```
-    radius is in meter and optional. If not set 100 meter is used as default. mizubot will look for pokemons and raids within the set center and radius. 
-3. Set notification filters
-   * pokemon notification <br>
-    1. Create filter by
-        ```
-        $createfilter
-        ```
-        This command will create filter `1`
-    2. Add pokemon
-        ```
-        $addpoke filternum pokemonname
-        ```
-        example
-        ```
-        $addpoke 1 Larvitor
-        ```
-        will add Larvitor to filter 1 <br>
+1 Set scan point with
+```
+$scan latitude longitude
+``` 
+2 Set notification center with 
+```
+$center latitude longitude (radius)
+```
+radius is in meter and optional. If not set 100 meter is used as default. mizubot will look for pokemons and raids within the set center and radius. <br><br>
+3 Set notification filters <br>
+**pokemon notification** <br>
+1 Create filter by
+```
+$createfilter
+```
+This command will create filter `1` <br>
+2 Add pokemon
+```
+$addpoke filternum pokemonname
+```
+Example
+```
+$addpoke 1 Larvitor
+```
+will add Larvitor to filter 1 <br>
+`all` to get all pokemon. You can add as many pokemons as you want to the filter. <br> 
 
 **Scan command**
 ***
